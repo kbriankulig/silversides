@@ -1,2 +1,2 @@
 # silversides
-Hidden patterns in data
+Hidden patterns in financial data
