@@ -2,6 +2,16 @@
 
 Project for ROS development within a Docker container using VSCode.
 
+
+### Clone the repo
+
+Clone this repository to your development client (eg. Windows laptop) 
+
+```yaml
+       git clone https://github.com/kbriankulig/ros-test.git
+```
+
+
 ## Features
 
 ### Style
