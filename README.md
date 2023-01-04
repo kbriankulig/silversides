@@ -2,8 +2,6 @@
 
 Project for ROS development within a Docker container using VSCode.
 
-See [how I develop with vscode and ros2](https://www.allisonthackston.com/articles/vscode_docker_ros2.html) for a more in-depth look on how to use this workspace.
-
 ## Features
 
 ### Style
