@@ -18,19 +18,61 @@ Clone this repository to your local development client (eg. Windows laptop)
 
 Install the following software packages locally: [Docker Desktop](https://docs.docker.com/engine/install/), [VScode](https://code.visualstudio.com/), and [VSCode Remote Development Extension Pack](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack)
 
+### Run an ROS Container in VSCode
 
-*2 [VScode](https://code.visualstudio.com/)
-*3 [VSCode Remote Development Extension Pack](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack)
+This repository contains a `.devcontainer` folder which defines an ROS container configuration for VSCode.  To run this container:
 
-### Tasks
+1. Open the Command Pallate `F1` in VSCode
+2. Choose: `Dev Container: Open Folder in Container...`
+3. Navigate to and select the `ros-test` folder which contains `.devcontainer`
+4. Wait about 1 minute for the container to get created.
 
-There are many pre-defined tasks, see [`.vscode/tasks.json`](.vscode/tasks.json) for a complete listing.  Feel free to adjust them to suit your needs.  
+To see which VSCode extensions are needed for this project and other container settings look at [.devcontainer/devcontainer.json](https://github.com/kbriankulig/ros-test/blob/vscode/.devcontainer/devcontainer.json)
 
-Take a look at [how I develop using tasks](https://www.allisonthackston.com/articles/vscode_tasks.html) for an idea on how I use tasks in my development.
 
-### Debugging
+### Confirm Container Setup
 
-This template sets up debugging for python files and gdb for cpp programs.  See [`.vscode/launch.json`](.vscode/launch.json) for configuration details.
+To verify the container was setup corretly:
+
+1. Verify the local repo folder `ros-test` was mounted within the container to `/root/ros-test'
+2. Verify that `build` and `devel` folders were created within `/root/ros-test/my_ws`
+
+
+
+## Development and Testing
+
+### Run a Unit Test
+
+Install the following software packages locally: [Docker Desktop](https://docs.docker.com/engine/install/), [VScode](https://code.visualstudio.com/), and [VSCode Remote Development Extension Pack](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack)
+
+### Run an Integration Test
+
+This repository contains a `.devcontainer` folder which defines an ROS container configuration for VSCode.  To run this container:
+
+1. Open the Command Pallate `F1` in VSCode
+2. Choose: `Dev Container: Open Folder in Container...`
+3. Navigate to and select the `ros-test` folder which contains `.devcontainer`
+4. Wait about 1 minute for the container to get created.
+
+
+### Run a Continuous Integration (CI) Test
+
+To see which VSCode extensions are needed for this project and other container settings look at [.devcontainer/devcontainer.json](https://github.com/kbriankulig/ros-test/blob/vscode/.devcontainer/devcontainer.json)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### Continuous Integration
 
