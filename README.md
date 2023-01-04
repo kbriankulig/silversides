@@ -64,7 +64,7 @@ To run an integration test, setup the shell environment for ROS using [new.bash]
 
 ### Run a Continuous Integration (CI) Test
 
-To add unit and integration tests to the continuous integration workflow, call the tests from the git Actions workflow file [test-pub-sub-actions.yml](https://github.com/kbriankulig/ros-test/blob/vscode/.github/workflows/test-pub-sub-actions.yml)
+To add unit and integration tests to the continuous integration workflow, call the tests from the git Actions workflow file [.github/workflows/test-pub-sub-actions.yml](https://github.com/kbriankulig/ros-test/blob/vscode/.github/workflows/test-pub-sub-actions.yml)
 
 To add a unit test:
 1. Create a python script in starting with `test_` to define the test.
