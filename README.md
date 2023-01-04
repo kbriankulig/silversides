@@ -5,21 +5,22 @@ Project for ROS development within a Docker container using VSCode.
 
 ### Clone the repo
 
-Clone this repository to your development client (eg. Windows laptop) 
+Clone this repository to your local development client (eg. Windows laptop) 
 
 ```yaml
        git clone https://github.com/kbriankulig/ros-test.git
 ```
 
 
-## Features
+## Setup VSCode
 
-### Style
+### Install Local Software
 
-ROS2-approved formatters are included in the IDE.  
+Install the following software packages localy.
 
-* **c++** uncrustify; config from `ament_uncrustify`
-* **python** autopep8; vscode settings consistent with the [style guide](https://index.ros.org/doc/ros2/Contributing/Code-Style-Language-Versions/)
+*1 [Docker Desktop](https://docs.docker.com/engine/install/)
+*2 [VScode](https://code.visualstudio.com/)
+*3 [VSCode Remote Development Extension Pack](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack)
 
 ### Tasks
 
@@ -48,9 +49,10 @@ To remove a linter just delete it's name from this line:
 
 You should already have Docker and VSCode with the remote containers plugin installed on your system.
 
-* [docker](https://docs.docker.com/engine/install/)
-* [vscode](https://code.visualstudio.com/)
+* [Docker Desktop](https://docs.docker.com/engine/install/)
+* [VScode](https://code.visualstudio.com/)
 * [vscode remote containers plugin](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
+* [VSCode Remote Development Extension Pack](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack)
 
 ### Get the template
 
