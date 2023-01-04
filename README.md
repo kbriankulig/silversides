@@ -53,15 +53,12 @@ To run a unit test, setup the shell environment for ROS using [new.bash](https:/
 
 ### Run an Integration Test
 
-This repository contains a `.devcontainer` folder which defines an ROS container configuration for VSCode.  To run this container:
-
-1. Open the Command Pallate `F1` in VSCode
-2. Choose: `Dev Container: Open Folder in Container...`
-3. Navigate to and select the `ros-test` folder which contains `.devcontainer`
-4. Wait about 1 minute for the container to get created.
+To run an integration test, setup the shell environment for ROS using [new.bash](https://github.com/kbriankulig/ros-test/blob/vscode/new.bash), then launch a test using a launch script and `rostest`. For example:
 
 ```yaml
-       git clone https://github.com/kbriankulig/ros-test.git
+       cd /root/ros-test
+       source new.bash
+       rostest my_pkg pub_sub_test.test
 ```
 
 
