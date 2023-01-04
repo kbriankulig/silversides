@@ -16,9 +16,9 @@ Clone this repository to your local development client (eg. Windows laptop)
 
 ### Install Local Software
 
-Install the following software packages localy.
+Install the following software packages locally: [Docker Desktop](https://docs.docker.com/engine/install/), [VScode](https://code.visualstudio.com/), and [VSCode Remote Development Extension Pack](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack)
 
-*1 [Docker Desktop](https://docs.docker.com/engine/install/)
+
 *2 [VScode](https://code.visualstudio.com/)
 *3 [VSCode Remote Development Extension Pack](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack)
 
