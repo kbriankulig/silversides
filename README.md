@@ -43,10 +43,12 @@ To verify the container was setup corretly:
 
 ### Run a Unit Test
 
-Install the following software packages locally: [Docker Desktop](https://docs.docker.com/engine/install/), [VScode](https://code.visualstudio.com/), and [VSCode Remote Development Extension Pack](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack)
+To run a unit test, setup the shell environment for ROS using `new.bash`, then run a unit test script from `my_pkg/test`.  For example to run the unit test for `/scripts/listener.py`:
 
 ```yaml
-       git clone https://github.com/kbriankulig/ros-test.git
+       cd /root/ros-test
+	   source new.bash
+	   ./my_ws/src/my_pkg/test/test_listener.py
 ```
 
 ### Run an Integration Test
