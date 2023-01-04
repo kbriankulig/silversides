@@ -3,7 +3,7 @@
 Project for ROS development within a Docker container using VSCode.
 
 
-### Clone the repo
+## Clone the repo
 
 Clone this repository to your local development client (eg. Windows laptop) 
 
@@ -67,13 +67,13 @@ To run an integration test, setup the shell environment for ROS using [new.bash]
 To add unit and integration tests to the continuous integration workflow, call the tests from the git Actions workflow file [.github/workflows/test-pub-sub-actions.yml](https://github.com/kbriankulig/ros-test/blob/vscode/.github/workflows/test-pub-sub-actions.yml)
 
 To add a unit test:
-1. Create a python script in starting with `test_` to define the test.
+1. Create a python script in `my_pkg/test` starting with `test_` to define the test.
 2. Add an extra line calling the test directly under the "Run unit tests" step in [test-pub-sub-actions.yml](https://github.com/kbriankulig/ros-test/blob/vscode/.github/workflows/test-pub-sub-actions.yml)
 3. Push the code to github to run the test.
 
 To add an integration test:
-1. Create a python script to define the test.
-2. Create a corresponding launch script.  Eg. [pub_sub_test.test](https://github.com/kbriankulig/ros-test/blob/unit_tests/my_ws/src/my_pkg/test/pub_sub_test.test)
+1. Create a python script in `my_pkg/test` to define the test.
+2. Create a corresponding launch script in `my_pkg/test`.  Eg. [pub_sub_test.test](https://github.com/kbriankulig/ros-test/blob/unit_tests/my_ws/src/my_pkg/test/pub_sub_test.test)
 3. Add the test to the bottom of [my_pkg/CMakeLists.txt](https://github.com/kbriankulig/ros-test/blob/unit_tests/my_ws/src/my_pkg/CMakeLists.txt)
 4. Add an extra line calling the launch script under the "Run pub sub test" step in [test-pub-sub-actions.yml](https://github.com/kbriankulig/ros-test/blob/vscode/.github/workflows/test-pub-sub-actions.yml)
 5. Push the code to github to run the test.
