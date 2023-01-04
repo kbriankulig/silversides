@@ -43,7 +43,7 @@ To verify the container was setup corretly:
 
 ### Run a Unit Test
 
-To run a unit test, setup the shell environment for ROS using `new.bash`, then run a unit test script from `my_pkg/test`.  For example to run the unit test for `/scripts/listener.py`:
+To run a unit test, setup the shell environment for ROS using [new.bash](https://github.com/kbriankulig/ros-test/blob/vscode/new.bash), then run a unit test script from `my_pkg/test`.  For example to run the unit test for `/scripts/listener.py`:
 
 ```yaml
        cd /root/ros-test
