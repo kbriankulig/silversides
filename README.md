@@ -48,7 +48,7 @@ To run a unit test, setup the shell environment for ROS using [new.bash](https:/
 ```yaml
        cd /root/ros-test
        source new.bash
-       ./my_ws/src/my_pkg/test/test_listener.py
+       /root/ros-test/my_ws/src/my_pkg/test/test_listener.py
 ```
 
 ### Run an Integration Test
